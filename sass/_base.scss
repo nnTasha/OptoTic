@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+}
+
+// body {
+//   height: 100%;
+//   width: 100%;
+//   min-width: 1004px;
+//   background-color: rgb(105, 145, 143);
+// }
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  min-width: 100.4rem;
+  background-color: rgb(105, 145, 143);
+}
