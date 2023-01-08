@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./sass/main.css" />
+  <link rel="stylesheet" href="./fonts/css/all.css" />
+  <link rel=" stylesheet" href="./sass/main.css" />
   <title>OptoTic</title>
 </head>
 
@@ -20,7 +21,32 @@
       <h1>OptoTic</h1>
     </div>
     <div class="container">
-      <nav class="navbar"></nav>
+      <nav class="navbar visible">
+        <div class="navbar_top-level-items">
+          <div class="navbar_create-menu">
+            <button class="navbar_addButton">
+              <span class="navbar_addButton-label">
+                <i class="navbar_addButton-icon fa-solid fa-plus"></i>
+              </span>
+            </button>
+          </div>
+          <ul class="contentViewSelector">
+            <li><i class="fa-solid fa-house"></i></li>
+            <li><i class="fa-solid fa-folder-plus"></i></li>
+            <li><i class="fa-solid fa-share-nodes"></i></li>
+            <li><i class="fa-solid fa-play"></i></li>
+            <li><i class="fa-solid fa-trash-can"></i></li>
+          </ul>
+          <div class="navbar_divider">
+            <hr>
+          </div>
+          <ul>
+            <li><i class="fa-regular fa-folder-open"></i></li>
+            <li><i class="fa-solid fa-user-group"></i></li>
+          </ul>
+        </div>
+
+      </nav>
       <div class="pageBody"></div>
     </div>
   </div>

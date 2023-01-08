@@ -15,6 +15,14 @@ html {
   background-color: rgb(105, 145, 143);
 }
 
+ul {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
 .header {
   position: relative;
   width: 100%;
@@ -30,4 +38,67 @@ html {
   width: 100%;
   height: 100%;
   top: 7.4rem;
+}
+
+.navbar {
+  flex-shrink: 0;
+  text-align: left;
+  display: none;
+}
+.navbar_top-level-items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+.navbar_create-menu {
+  margin-left: 19px;
+  margin-bottom: 20px;
+}
+.navbar_addButton {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #30733f;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.navbar_addButton-icon {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  background-color: #30733f;
+  color: white;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  vertical-align: bottom;
+}
+.navbar ul {
+  display: block;
+  -webkit-margin-before: 1rem;
+          margin-block-start: 1rem;
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem;
+  -webkit-padding-start: 2rem;
+          padding-inline-start: 2rem;
+}
+.navbar ul i {
+  display: block;
+  padding: 0.8rem;
+  font-size: 1.8rem;
+  color: #626262;
+}
+.navbar_divider {
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  position: relative;
+  left: 1rem;
+}
+.navbar_divider hr {
+  width: 50%;
+  margin: 25%;
+}
+
+.navbar.visible {
+  display: flex;
+  width: auto;
 }/*# sourceMappingURL=main.css.map */

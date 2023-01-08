@@ -1,3 +1,5 @@
+//used icons https://fontawesome.com/
+
 * {
   margin: 0;
   padding: 0;
@@ -20,4 +22,12 @@ html {
   width: 100%;
   min-width: 100.4rem;
   background-color: rgb(105, 145, 143);
+}
+
+ul {
+  display: block;
+}
+
+li {
+  list-style: none;
 }
